@@ -3,6 +3,12 @@ set number
 " Disable compatibility with vi
 set nocompatible
 
+" Indents and tabs
+set autoindent
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
 " enable syntax and plugins (for netrw)
 syntax enable
 filetype plugin on
